@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doeglas Designs</title>
+    <link rel="stylesheet" href="/css/logo1.css">
+</head>
+    <body>
+        <div class="navbar">
+            <div class="container">
+                <a href="/index.html" class="logo">Doeglas Designs</a>
+
+                <img id="mobile-cta" class="mobile-menu" src="/images/menu.svg" alt="Open Navigation">
+
+                <nav>
+                    <img id="mobile-exit" class="mobile-menu-exit" src="/images/exit.svg" alt="Close Navigation">
+
+                    <ul class="primary-nav">
+                        <li><a href="/model/models.html">Models</a></li>
+                        <li><a href="/illustration/logo.html">Illustrations</a></li>
+                        <li><a href="/graphics/logo1.html">Graphic Designs</a></li>
+                        <li><a href="/video/server.html">Video Editings</a></li>
+                    </ul>
+
+                    <ul class="secondary-nav">
+                        <li class="hire-me-cta"><a href="https://discord.gg/Q4dNfnypKw">Hire Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <img class="background" src="/images/lines.svg" alt="">
+
+        <section class="hero">
+            <div class="hero-container">
+                <h1 class="title">Graphic Designs</h1>
+                <p class="desc">All my graphic logo's are displayed here! Check em out!</p>
+                
+                <div class="option">
+                    <div class="option-container">
+                        <div class="option-left">
+                            <div class="option-box">
+                                <p>Logo</p>
+                            </div>
+                        </div>
+                        <div class="option-right">
+                            <a href="/graphics/banner.html" class="decoration">Banner</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> 
+
+        <section>
+            <div class="picture-container">
+                <div class="picture"><img src="/images/portfolio/ArcadeNetworkLogo.png" class="img1" alt="72"></div>
+                <div class="picture"><img src="/images/portfolio/DoeglasDesignsLogo.png" class="img2" aalt="72"></div>
+                <div class="picture"><img src="/images/72.svg" class="img3" aalt="72"></div>
+                <div class="picture"><img src="/images/72.svg" class="img4" aalt="72"></div>
+                <div class="picture"><img src="/images/72.svg" class="img5" aalt="72"></div>
+                <div class="picture"><img src="/images/72.svg" class="img6" aalt="72"></div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer-container">
+                    <div class="footer-left-col">
+                    <ul>
+                        <li class="foot-logo"><a href="#">Doeglas Design</a></li>
+                        <li class="foot-sub">About Us</li>
+                        <li class="foot-desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur</li>
+                        <li class="copyright">@Copyright</li>
+                    </ul>
+                    </div>
+
+                    <div class="footer-primary-mid-col">
+                    <ul>
+                        <li class="title"><a href="">Pages</a></li>
+                        <li><a class="foot-links" href="#">Home</a></li>
+                        <li><a class="foot-links" href="#">Illustration</a></li>
+                        <li><a class="foot-links" href="#">Graphics Design</a></li>
+                        <li><a class="foot-links" href="#">Video Editing</a></li>
+                    </ul>
+                    </div>
+
+                    <div class="footer-secondary-mid-col">
+                    <ul>
+                        <li class="title"><a href="">Contact</a></li>
+                        <li class="foot-links">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam</li>
+                    </ul>
+                    </div>
+
+                    <div class="footer-right-col">
+                        <ul>
+                            <li class="hire-me-cta2"><a href="https://discord.gg/Q4dNfnypKw">Hire Us</a></li>
+                        </ul>
+                    </div>
+            </div>
+
+        </footer>
+    
+
+        <script>
+
+            const mobileBtn = document.getElementById('mobile-cta')
+                nav = document.querySelector('nav')
+                mobileBtnExit = document.getElementById('mobile-exit');
+            
+            mobileBtn.addEventListener('click', () => {
+                nav.classList.add('menu-btn');
+            })
+
+            mobileBtnExit.addEventListener('click', () => {
+                nav.classList.remove('menu-btn');
+            })
+
+        </script>
+
+    </body>
+</html>
